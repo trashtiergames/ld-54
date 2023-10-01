@@ -4,12 +4,12 @@ function PlayState:init()
   destroy_button = Button("destroy", 72, 0)
   end_day_button = Button("end_day", 96, 0)
   buildings = {
-    Building("well", 13, 0, 56, 3, 3),
-    Building("reactor", 176, 0, 86, 2, 2),
-    Building("garden", 208, 40, 56, 2, 3),
-    Building("aquaponics", 9, 32, 86, 4, 4),
-    Building("greenhouse", 61, 80, 94, 3, 2),
-    Building("aerodrome", 92, 72, 64, 4, 4)
+    Building("well", "s", 0, 56),
+    Building("reactor", "s", 0, 86),
+    Building("garden", "s", 40, 56),
+    Building("aquaponics", "s", 32, 86),
+    Building("greenhouse", "s", 80, 94),
+    Building("aerodrome", "s", 72, 64)
   }
 end
 
